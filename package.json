@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jansoren/react-webpack-tutorial/issues"
   },
-  "homepage": "https://github.com/jansoren/react-webpack-tutorial#readme"
+  "homepage": "https://github.com/jansoren/react-webpack-tutorial#readme",
+  "devDependencies": {
+    "webpack": "^1.12.11"
+  }
 }
