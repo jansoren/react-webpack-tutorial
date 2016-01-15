@@ -37,9 +37,9 @@ You have now created an initial `package.json` file that we later on will fill w
       path: __dirname + "/dist",
     },
   };
-
   module.exports = config;
   ```
+
 1. Create folder `/app` to contain all your application files.
 1. Create your application main file `main.js` in you `/app` folder with this initial content:
   ```javascript
@@ -57,8 +57,9 @@ You have now created an initial `package.json` file that we later on will fill w
   });
   ReactDOM.render(<Content />, document.getElementById('content'));
   ```
+
 1. Install React DOM and add it to your package.json file automatically using `npm install --save react react-dom`
-1. Install Babel to transform the content of a .js file from ES6 to ES5 `npm install --save-dev babel-preset-react babel-preset-es2015 babel-loader `
+1. Install Babel to transform the content of a .js file from ES6 to ES5 `npm install --save-dev babel-preset-react babel-preset-es2015 babel-loader`
 1. In your `webpack.config.js` add babel-loader:
   ```javascript
   var config = {
@@ -77,6 +78,7 @@ You have now created an initial `package.json` file that we later on will fill w
     },
   };
   ```
+
 1. Create folder `/dist` and create `index.html` file with content:
   ```html
   <!DOCTYPE html>
@@ -91,6 +93,7 @@ You have now created an initial `package.json` file that we later on will fill w
     </body>
   </html>
   ```
+
 1. Run command `webpack` that will give something like this as a result:
   ```
   Hash: dd141258ef660950584c
@@ -100,4 +103,5 @@ You have now created an initial `package.json` file that we later on will fill w
   bundle.js  676 kB       0  [emitted]  main
     + 159 hidden modules
   ```
+
 1. Open `/dist/index.html` to see your client side application
