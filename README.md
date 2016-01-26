@@ -17,16 +17,17 @@ If you find the tutorial helpful, and maybe learned something new, please give i
 
 ### 1. Initializing your project with npm
 
-1. Enter your project main folder. For this tutorial I will use `react-webpack-tutorial`
+1. Enter your project main folder. For this tutorial I will use [myapp](/myapp) as folder and you will find the resulting code there
 1. Run `npm init` to create the project `package.json` file
 1. Press <enter> on the npm init questions to get the default value
-1. Install Webpack and add it to your package.json file automatically using `npm install --save-dev webpack`
+1. Install Webpack with `npm install --save-dev webpack`. When npm uses `--save-dev` it automatically adds the webpack package to the `package.json`
 
-You have now created an initial `package.json` file that we later on will fill with the necessary packages for installing the application with `npm install`.
+You have now created an initial [package.json](/myapp/package.json) file that we later on will fill with the necessary packages for installing the application with `npm install`.
 
 ### 2. Create initial application files
 
-1. Create your application Webpack config file `webpack.config.js` in main project folder with this initial content:
+1. Open [myapp](/myapp)-folder in your preferred IDE or [Atom](https://atom.io/)
+1. Create your application Webpack config file [webpack.config.js](/myapp/webpack.config.js) in main project folder with this initial content:
   ```javascript
   var config = {
     context: __dirname + "/app",
@@ -40,8 +41,8 @@ You have now created an initial `package.json` file that we later on will fill w
   module.exports = config;
   ```
 
-1. Create folder `/app` to contain all your application files.
-1. Create your application main file `main.js` in you `/app` folder with this initial content:
+1. Create folder [myapp/app](/myapp/app) to contain all your application files.
+1. Create your application main file [main.js](/myapp/app/main.js) with this initial content:
   ```javascript
   var React = require('react');
   var ReactDOM = require('react-dom');
@@ -50,7 +51,7 @@ You have now created an initial `package.json` file that we later on will fill w
     render: function() {
       return (
         <div>
-          Hello, world!
+          <b>Congratulations</b>, you are now ready to implement your client side application! Enjoy :-)
         </div>
       );
     }
@@ -60,7 +61,7 @@ You have now created an initial `package.json` file that we later on will fill w
 
 1. Install React DOM and add it to your package.json file automatically using `npm install --save react react-dom`
 1. Install Babel to transform the content of a .js file from ES6 to ES5 `npm install --save-dev babel-preset-react babel-preset-es2015 babel-loader`
-1. In your `webpack.config.js` add babel-loader:
+1. In your `webpack.config.js` add the babel-loader that you just installed like this:
   ```javascript
   var config = {
     ...
@@ -79,7 +80,7 @@ You have now created an initial `package.json` file that we later on will fill w
   };
   ```
 
-1. Create folder `/dist` and create `index.html` file with content:
+1. Create folder [myapp/dist](/myapp/dist) and create `index.html` file with content:
   ```html
   <!DOCTYPE html>
   <html>
@@ -94,7 +95,7 @@ You have now created an initial `package.json` file that we later on will fill w
   </html>
   ```
 
-1. Run command `webpack` that will give something like this as a result:
+1. Run command `webpack` in your main folder that will result in something like this:
   ```
   Hash: dd141258ef660950584c
   Version: webpack 1.12.11
