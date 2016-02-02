@@ -31,7 +31,7 @@ You have now created an initial [package.json](https://github.com/jansoren/react
 
 ### 2. Create initial application files
 
-1. Open [myapp](/myapp)-folder in your preferred IDE or [Atom](https://atom.io/)
+1. Open [myapp](https://github.com/jansoren/react-webpack-tutorial/tree/master/myapp)-folder in your preferred IDE or [Atom](https://atom.io/)
 1. Create your application Webpack config file [webpack.config.js](https://github.com/jansoren/react-webpack-tutorial/tree/master/myapp/webpack.config.js) in main project folder with this initial content:
   ```javascript
   var config = {
