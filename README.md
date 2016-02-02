@@ -111,3 +111,7 @@ You have now created an initial [package.json](/myapp/package.json) file that we
   ```
 
 1. Open `/dist/index.html` to see your client side application
+
+1. If you want some pointers on developing your client side application you should check these sites out:
+  - [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
+  - [React.js Best Practices for 2016](https://blog.risingstack.com/react-js-best-practices-for-2016/)
