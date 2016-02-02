@@ -8,7 +8,7 @@ This tutorial will cover how to get started developing a client side application
 You can either follow the tutorial below or just jump to the resulting code with:
 
 1. Cloning this repo `git clone git@github.com:jansoren/react-webpack-tutorial.git`
-1. Run `npm install` from the [myapp](/myapp)-folder
+1. Run `npm install` from the [myapp](https://github.com/jansoren/react-webpack-tutorial/tree/master/myapp)-folder
 1. Run command `webpack`
 1. Open `/myapp/dist/index.html`
 
@@ -22,17 +22,17 @@ If you find the tutorial helpful, and maybe learned something new, please give i
 
 ### 1. Initializing your project with npm
 
-1. Enter your project main folder. For this tutorial I will use [myapp](/myapp) as folder and you will find the resulting code there
+1. Enter your project main folder. For this tutorial I will use [myapp](https://github.com/jansoren/react-webpack-tutorial/tree/master/myapp) as folder and you will find the resulting code there
 1. Run `npm init` to create the project `package.json` file
 1. Press <enter> on the npm init questions to get the default value
 1. Install Webpack with `npm install --save-dev webpack`. When npm uses `--save-dev` it automatically adds the webpack package to the `package.json`
 
-You have now created an initial [package.json](/myapp/package.json) file that we later on will fill with the necessary packages for installing the application with `npm install`.
+You have now created an initial [package.json](https://github.com/jansoren/react-webpack-tutorial/tree/master/myapp/package.json) file that we later on will fill with the necessary packages for installing the application with `npm install`.
 
 ### 2. Create initial application files
 
 1. Open [myapp](/myapp)-folder in your preferred IDE or [Atom](https://atom.io/)
-1. Create your application Webpack config file [webpack.config.js](/myapp/webpack.config.js) in main project folder with this initial content:
+1. Create your application Webpack config file [webpack.config.js](https://github.com/jansoren/react-webpack-tutorial/tree/master/myapp/webpack.config.js) in main project folder with this initial content:
   ```javascript
   var config = {
     context: __dirname + "/app",
@@ -46,8 +46,8 @@ You have now created an initial [package.json](/myapp/package.json) file that we
   module.exports = config;
   ```
 
-1. Create folder [myapp/app](/myapp/app) to contain all your application files.
-1. Create your application main file [main.js](/myapp/app/main.js) with this initial content:
+1. Create folder [myapp/app](https://github.com/jansoren/react-webpack-tutorial/tree/master/myapp/app) to contain all your application files.
+1. Create your application main file [main.js](https://github.com/jansoren/react-webpack-tutorial/tree/master/myapp/app/main.js) with this initial content:
   ```javascript
   var React = require('react');
   var ReactDOM = require('react-dom');
@@ -85,7 +85,7 @@ You have now created an initial [package.json](/myapp/package.json) file that we
   };
   ```
 
-1. Create folder [myapp/dist](/myapp/dist) and create `index.html` file with content:
+1. Create folder [myapp/dist](https://github.com/jansoren/react-webpack-tutorial/tree/master/myapp/dist) and create `index.html` file with content:
   ```html
   <!DOCTYPE html>
   <html>
