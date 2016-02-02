@@ -6,6 +6,7 @@ This tutorial will cover how to get started developing a client side application
 - [Npm](https://docs.npmjs.com/getting-started/what-is-npm)
 
 You can either follow the tutorial below or just jump to the resulting code with:
+
 1. Cloning this repo `git clone git@github.com:jansoren/react-webpack-tutorial.git`
 1. Run `npm install` from the [myapp](/myapp)-folder
 1. Run command `webpack`
