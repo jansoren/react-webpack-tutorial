@@ -12,7 +12,8 @@ You can either follow the tutorial below or just jump to the resulting code with
 1. Run command `webpack`
 1. Open `/myapp/dist/index.html`
 
-If you find the tutorial helpful, and maybe learned something new, please give it a star. If you have improvement suggestions please create an issue or a pull request. Enjoy :-)
+If you find the tutorial helpful, and maybe learned something new, please give it a star [here](https://github.com/jansoren/react-webpack-tutorial). 
+If you have improvement suggestions please create an issue or a pull request. Enjoy :-)
 
 ## Tutorial prerequisites
 
