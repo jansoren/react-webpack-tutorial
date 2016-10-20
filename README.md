@@ -12,7 +12,7 @@ You can either follow the tutorial below or just jump to the resulting code with
 1. Run command `webpack`
 1. Open `/myapp/dist/index.html`
 
-If you find the tutorial helpful, and maybe learned something new, please give it a star [here](https://github.com/jansoren/react-webpack-tutorial). 
+If you find the tutorial helpful, and maybe learned something new, please give it a star [here](https://github.com/jansoren/react-webpack-tutorial).
 If you have improvement suggestions please create an issue or a pull request. Enjoy :-)
 
 ## Tutorial prerequisites
@@ -66,7 +66,7 @@ You have now created an initial [package.json](https://github.com/jansoren/react
   ```
 
 1. Install React DOM and add it to your package.json file automatically using `npm install --save react react-dom`
-1. Install Babel to transform the content of a .js file from ES6 to ES5 `npm install --save-dev babel-preset-react babel-preset-es2015 babel-loader`
+1. Install Babel to transform the content of a .js file from ES6 to ES5 `npm install --save-dev babel-preset-react babel-preset-es2015 babel-core babel-loader`
 1. In your `webpack.config.js` add the babel-loader that you just installed like this:
   ```javascript
   var config = {
