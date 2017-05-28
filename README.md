@@ -18,6 +18,10 @@ If you have improvement suggestions please create an issue or a pull request. En
 ## Tutorial prerequisites
 
 - Use your preferred IDE or you can install [Atom](https://atom.io/)
+- Great Atom packages to install:
+  - [file-icons](https://github.com/file-icons/atom)
+  - [autosave](https://github.com/atom/autosave)
+  - [linter-eslint](https://github.com/AtomLinter/linter-eslint)
 - Install [NodeJS](https://nodejs.org/en/download/)
 - Install [Webpack](https://webpack.github.io/) - `npm install -g webpack`
 
