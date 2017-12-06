@@ -70,7 +70,7 @@ You have now created an initial [package.json](https://github.com/jansoren/react
   ```
 
 1. Install React DOM and add it to your package.json file automatically using `npm install --save react react-dom`
-1. Install Babel to transform the content of a .js file from ES6 to ES5 `npm install --save-dev babel-preset-react babel-preset-es2015 babel-core babel-loader`
+1. Install Babel to transform the content of a .js file from ES6 to ES5 `npm install --save-dev babel-core babel-loader babel-preset-env babel-preset-react`
 1. In your `webpack.config.js` add the babel-loader that you just installed like this:
   ```javascript
   var config = {
@@ -82,11 +82,11 @@ You have now created an initial [package.json](https://github.com/jansoren/react
           exclude: /node_modules/,
           loader: 'babel-loader',
           query: {
-            presets: ['react', 'es2015']
+            presets: ['react', 'env']
           }
         }
       ],
-    },
+    }
   };
   ```
 
@@ -107,12 +107,13 @@ You have now created an initial [package.json](https://github.com/jansoren/react
 
 1. Run command `webpack` in your main folder that will result in something like this:
   ```
-  Hash: dd141258ef660950584c
-  Version: webpack 1.12.11
-  Time: 3711ms
-    Asset    Size  Chunks             Chunk Names
-  bundle.js  676 kB       0  [emitted]  main
-    + 159 hidden modules
+Hash: 35d746ba5bf01c587890
+Version: webpack 3.10.0
+Time: 829ms
+    Asset    Size  Chunks                    Chunk Names
+bundle.js  728 kB       0  [emitted]  [big]  main
+  [81] ./main.js 572 bytes {0} [built]
+    + 183 hidden modules
   ```
 
 1. Open `/dist/index.html` to see your client side application
